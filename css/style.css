@@ -115,7 +115,7 @@ h3{
     color: #000000;
     font-weight:700;
     font-size:50px;
-    transition: 7s;
+    transition: 3s;
     transition-timing-function: ease-in;
 }
 
@@ -191,12 +191,12 @@ h5:hover{
 
 @font-face {
         font-family: "segoeUi";
-        src: url("assets/fonts/segoeui.ttf");
+        src: url("../assets/fonts/segoeui.tff");
         }
 
 @font-face {
         font-family: "segoeUib";
-        src: url("assets/fonts/segoeuib.ttf");
+        src: url("../assets/fonts/segoeuib.ttf");
         }
 
 .segoeUi {
@@ -207,7 +207,7 @@ h5:hover{
 
 .segoeUib {
         font-family: "segoeUib";
-        font-weight:700;
+        font-weight:500;
         font-size:50px;
         }
 
@@ -240,11 +240,11 @@ h5:hover{
 
 @font-face {
         font-family: "chronotrigger";
-        src: url("assets/fonts/chronotrigger.ttf");
+        src: url("../assets/fonts/chronotrigger.ttf");
         }
 
 .chronotrigger {
-        font-family: "chronotrigger";
+        font-family: 'chronotrigger' Fallback, sans-serif;
         font-weight:500;
         font-size:40px;
         }
